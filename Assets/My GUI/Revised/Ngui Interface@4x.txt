@@ -1,0 +1,212 @@
+{"frames": {
+
+"Angry mob.png":
+{
+	"frame": {"x":632,"y":1704,"w":320,"h":296},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":320,"h":296},
+	"sourceSize": {"w":322,"h":310}
+},
+"Big Slab.png":
+{
+	"frame": {"x":8,"y":864,"w":1160,"h":832},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":1160,"h":832},
+	"sourceSize": {"w":1191,"h":894}
+},
+"Circle Stone R.png":
+{
+	"frame": {"x":8,"y":1704,"w":352,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":16,"w":352,"h":336},
+	"sourceSize": {"w":368,"h":367}
+},
+"Exit.png":
+{
+	"frame": {"x":1024,"y":536,"w":264,"h":248},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":264,"h":248},
+	"sourceSize": {"w":268,"h":249}
+},
+"FSBoard.png":
+{
+	"frame": {"x":1760,"y":392,"w":144,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":144,"h":352},
+	"sourceSize": {"w":161,"h":358}
+},
+"Facebook Photo.png":
+{
+	"frame": {"x":1176,"y":792,"w":312,"h":512},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":0,"w":312,"h":512},
+	"sourceSize": {"w":505,"h":505}
+},
+"Facebook Stone.png":
+{
+	"frame": {"x":1584,"y":8,"w":504,"h":376},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":8,"w":504,"h":376},
+	"sourceSize": {"w":533,"h":377}
+},
+"Home R.png":
+{
+	"frame": {"x":1592,"y":1704,"w":256,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":256,"h":216},
+	"sourceSize": {"w":263,"h":237}
+},
+"Pause_R.png":
+{
+	"frame": {"x":1912,"y":392,"w":168,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":24,"w":168,"h":168},
+	"sourceSize": {"w":202,"h":200}
+},
+"Play_R.png":
+{
+	"frame": {"x":1296,"y":536,"w":232,"h":248},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":16,"w":232,"h":248},
+	"sourceSize": {"w":258,"h":277}
+},
+"Questions.png":
+{
+	"frame": {"x":840,"y":536,"w":176,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":8,"w":176,"h":256},
+	"sourceSize": {"w":207,"h":270}
+},
+"Replay.png":
+{
+	"frame": {"x":1536,"y":536,"w":216,"h":240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":24,"w":216,"h":240},
+	"sourceSize": {"w":255,"h":287}
+},
+"Settings R.png":
+{
+	"frame": {"x":1168,"y":1704,"w":256,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":256,"h":272},
+	"sourceSize": {"w":284,"h":301}
+},
+"Small Dark Slab.png":
+{
+	"frame": {"x":1176,"y":1312,"w":784,"h":384},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":72,"y":40,"w":784,"h":384},
+	"sourceSize": {"w":911,"h":454}
+},
+"Small HeadStone.png":
+{
+	"frame": {"x":1496,"y":792,"w":368,"h":464},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":368,"h":464},
+	"sourceSize": {"w":371,"h":468}
+},
+"Start Stone.png":
+{
+	"frame": {"x":8,"y":8,"w":616,"h":848},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":616,"h":848},
+	"sourceSize": {"w":634,"h":859}
+},
+"bone.png":
+{
+	"frame": {"x":1432,"y":1704,"w":152,"h":240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":152,"h":240},
+	"sourceSize": {"w":161,"h":244}
+},
+"bone_glow.png":
+{
+	"frame": {"x":960,"y":1704,"w":200,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":200,"h":288},
+	"sourceSize": {"w":203,"h":299}
+},
+"headstone.png":
+{
+	"frame": {"x":1856,"y":1704,"w":160,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":216},
+	"sourceSize": {"w":160,"h":212}
+},
+"headstone_glow.png":
+{
+	"frame": {"x":632,"y":536,"w":200,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":256},
+	"sourceSize": {"w":205,"h":256}
+},
+"how to 1a.png":
+{
+	"frame": {"x":632,"y":8,"w":944,"h":520},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":944,"h":520},
+	"sourceSize": {"w":938,"h":514}
+},
+"skull.png":
+{
+	"frame": {"x":1872,"y":752,"w":176,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":184},
+	"sourceSize": {"w":182,"h":191}
+},
+"skull_eye.png":
+{
+	"frame": {"x":960,"y":2000,"w":32,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":32,"h":40},
+	"sourceSize": {"w":46,"h":47}
+},
+"skull_glow.png":
+{
+	"frame": {"x":368,"y":1704,"w":256,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":312},
+	"sourceSize": {"w":255,"h":305}
+},
+"skull_jaw.png":
+{
+	"frame": {"x":1024,"y":792,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":88,"h":64},
+	"sourceSize": {"w":97,"h":61}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Ngui Interface@4x.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:45fcf0bcccd808d4b0b14a74c58f0b79$"
+}
+}

@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FS_A_001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 34b1f7b1377ca49fb85b94eee313e018, type: 2}
+  mSprites:
+  - name: Angry mob
+    x: 219
+    y: 992
+    width: 314
+    height: 292
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 6
+    paddingTop: 11
+    paddingBottom: 7
+  - name: Backdrop
+    x: 943
+    y: 1559
+    width: 17
+    height: 17
+    borderLeft: 6
+    borderRight: 6
+    borderTop: 6
+    borderBottom: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BLC light
+    x: 1007
+    y: 1158
+    width: 192
+    height: 193
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 2
+    paddingTop: 6
+    paddingBottom: 7
+  - name: BLC light 2
+    x: 892
+    y: 1577
+    width: 120
+    height: 103
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 6
+    paddingTop: 0
+    paddingBottom: 11
+  - name: bone
+    x: 1233
+    y: 906
+    width: 147
+    height: 233
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 6
+    paddingTop: 6
+    paddingBottom: 5
+  - name: bone_glow
+    x: 0
+    y: 137
+    width: 194
+    height: 281
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 10
+  - name: bot light
+    x: 599
+    y: 1352
+    width: 484
+    height: 181
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 27
+    paddingRight: 16
+    paddingTop: 70
+    paddingBottom: 58
+  - name: bot light 2
+    x: 219
+    y: 494
+    width: 356
+    height: 191
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 37
+    paddingBottom: 27
+  - name: BRC light
+    x: 856
+    y: 200
+    width: 191
+    height: 232
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 6
+    paddingRight: 15
+    paddingTop: 6
+    paddingBottom: 15
+  - name: BRC light 2
+    x: 1013
+    y: 1600
+    width: 105
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 0
+    paddingBottom: 14
+  - name: Center light
+    x: 1256
+    y: 1369
+    width: 162
+    height: 164
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Circle Stone R
+    x: 1691
+    y: 1712
+    width: 339
+    height: 336
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 13
+    paddingBottom: 18
+  - name: Exit
+    x: 599
+    y: 894
+    width: 256
+    height: 245
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: Facebook Photo
+    x: 1389
+    y: 1547
+    width: 301
+    height: 501
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 100
+    paddingRight: 104
+    paddingTop: 4
+    paddingBottom: 0
+  - name: Facebook Stone
+    x: 892
+    y: 1681
+    width: 496
+    height: 367
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 26
+    paddingRight: 11
+    paddingTop: 10
+    paddingBottom: 0
+  - name: FSBoard
+    x: 599
+    y: 299
+    width: 142
+    height: 348
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 10
+    paddingTop: 10
+    paddingBottom: 0
+  - name: headstone
+    x: 1371
+    y: 1143
+    width: 151
+    height: 208
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 6
+    paddingTop: 1
+    paddingBottom: 3
+  - name: headstone_glow
+    x: 856
+    y: 664
+    width: 190
+    height: 246
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 10
+    paddingTop: 7
+    paddingBottom: 3
+  - name: Home R
+    x: 219
+    y: 21
+    width: 255
+    height: 210
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 18
+  - name: how to 1
+    x: 0
+    y: 1534
+    width: 891
+    height: 514
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 25
+    paddingTop: 0
+    paddingBottom: 0
+  - name: left light
+    x: 0
+    y: 1062
+    width: 218
+    height: 471
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 11
+    paddingRight: 1
+    paddingTop: 30
+    paddingBottom: 17
+  - name: left light 2
+    x: 0
+    y: 419
+    width: 199
+    height: 274
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 54
+    paddingRight: 19
+    paddingTop: 23
+    paddingBottom: 14
+  - name: left light 3
+    x: 1583
+    y: 1357
+    width: 131
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Overlay
+    x: 920
+    y: 1536
+    width: 17
+    height: 17
+    borderLeft: 6
+    borderRight: 6
+    borderTop: 6
+    borderBottom: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pause_R
+    x: 1419
+    y: 1373
+    width: 163
+    height: 160
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 18
+    paddingTop: 25
+    paddingBottom: 15
+  - name: Play_R
+    x: 599
+    y: 648
+    width: 222
+    height: 245
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 0
+    paddingTop: 17
+    paddingBottom: 15
+  - name: Progress _Bar
+    x: 920
+    y: 1554
+    width: 22
+    height: 22
+    borderLeft: 6
+    borderRight: 6
+    borderTop: 6
+    borderBottom: 6
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: Questions
+    x: 1064
+    y: 887
+    width: 168
+    height: 252
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 15
+    paddingTop: 9
+    paddingBottom: 9
+  - name: Replay
+    x: 856
+    y: 911
+    width: 207
+    height: 228
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 19
+    paddingTop: 30
+    paddingBottom: 29
+  - name: right light
+    x: 0
+    y: 694
+    width: 199
+    height: 367
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 58
+    paddingRight: 40
+    paddingTop: 14
+    paddingBottom: 18
+  - name: right light 2
+    x: 1200
+    y: 1152
+    width: 170
+    height: 199
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Settings R
+    x: 219
+    y: 232
+    width: 254
+    height: 261
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 13
+    paddingTop: 21
+    paddingBottom: 19
+  - name: skull
+    x: 1878
+    y: 1534
+    width: 165
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 11
+    paddingTop: 6
+    paddingBottom: 8
+  - name: skull_eye
+    x: 892
+    y: 1549
+    width: 27
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 7
+    paddingTop: 14
+    paddingBottom: 6
+  - name: skull_glow
+    x: 219
+    y: 686
+    width: 255
+    height: 305
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skull_jaw
+    x: 1013
+    y: 1545
+    width: 78
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 8
+    paddingTop: 4
+    paddingBottom: 3
+  - name: TLC light
+    x: 856
+    y: 433
+    width: 203
+    height: 230
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 0
+    paddingTop: 54
+    paddingBottom: 3
+  - name: TLC light 2
+    x: 1691
+    y: 1543
+    width: 186
+    height: 168
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 0
+  - name: top light
+    x: 599
+    y: 1140
+    width: 407
+    height: 211
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 36
+    paddingRight: 33
+    paddingTop: 74
+    paddingBottom: 52
+  - name: top light 2
+    x: 219
+    y: 1285
+    width: 379
+    height: 248
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 41
+    paddingRight: 38
+    paddingTop: 26
+    paddingBottom: 27
+  - name: TRC light
+    x: 599
+    y: 74
+    width: 213
+    height: 224
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 11
+    paddingTop: 30
+    paddingBottom: 9
+  - name: TRC light 2
+    x: 1084
+    y: 1359
+    width: 171
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 18
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 3116b9830aa9d423f82aa914ed1276bb
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Board
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 17
+        width: 105
+        height: 521
+      alignment: 9
+      pivot: {x: .49999994, y: .374596775}
+    - name: eyes
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 623
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: RArm_upper
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 519
+        width: 103
+        height: 141
+      alignment: 9
+      pivot: {x: .644164145, y: .907203197}
+    - name: RArm_lower
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 378
+        width: 69
+        height: 122
+      alignment: 9
+      pivot: {x: .198718086, y: .921935558}
+    - name: RHand
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 240
+        width: 86
+        height: 107
+      alignment: 9
+      pivot: {x: .384892672, y: .8515625}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 520
+        width: 111
+        height: 144
+      alignment: 9
+      pivot: {x: .588988185, y: .113374501}
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 610
+        width: 15
+        height: 44
+      alignment: 9
+      pivot: {x: .420182288, y: .15986079}
+    - name: Top_Pants
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 576
+        width: 88
+        height: 59
+      alignment: 9
+      pivot: {x: .540817261, y: .545660496}
+    - name: Chest
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 390
+        width: 152
+        height: 119
+      alignment: 9
+      pivot: {x: .49529025, y: .12579295}
+    - name: Torso
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 250
+        width: 75
+        height: 118
+      alignment: 9
+      pivot: {x: .501225591, y: .0955882967}
+    - name: LArm_upper
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 119
+        width: 83
+        height: 115
+      alignment: 9
+      pivot: {x: .20788978, y: .859187782}
+    - name: RArm_lower
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 115
+        width: 35
+        height: 89
+      alignment: 9
+      pivot: {x: .79932338, y: .946189284}
+    - name: RHand
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 6
+        width: 55
+        height: 82
+      alignment: 9
+      pivot: {x: .799323618, y: .788372397}
+    - name: LLeg_upper
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 56
+        width: 94
+        height: 147
+      alignment: 9
+      pivot: {x: .219783053, y: .878735363}
+    - name: RLeg_upper
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 54
+        width: 79
+        height: 157
+      alignment: 9
+      pivot: {x: .651556492, y: .919433594}
+    - name: RFoot
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 228
+        width: 84
+        height: 40
+      alignment: 9
+      pivot: {x: .827830374, y: .881637573}
+    - name: LFoot
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 302
+        width: 112
+        height: 49
+      alignment: 9
+      pivot: {x: .152571544, y: .835975468}
+    - name: RLeg_lower
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 408
+        width: 51
+        height: 124
+      alignment: 9
+      pivot: {x: .464786291, y: .929997087}
+    - name: LLeg_lower
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 420
+        width: 29
+        height: 113
+      alignment: 9
+      pivot: {x: .758037686, y: .915874124}
+  spritePackingTag: characters
+  userData: 

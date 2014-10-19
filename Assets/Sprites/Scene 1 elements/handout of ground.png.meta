@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 164fa76a270c449b18acae908d637812
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 145
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: wrist
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 301
+        width: 61
+        height: 164
+      alignment: 9
+      pivot: {x: .525583208, y: .0748821348}
+    - name: earth cover
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 647
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: palm
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 504
+        width: 157
+        height: 170
+      alignment: 9
+      pivot: {x: .602828085, y: .151795149}
+    - name: Thumb 1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 488
+        width: 135
+        height: 96
+      alignment: 9
+      pivot: {x: .0905101672, y: .342024475}
+    - name: Thumb 2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 617
+        width: 82
+        height: 111
+      alignment: 9
+      pivot: {x: .82813096, y: .0989330411}
+    - name: finger 1a
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 747
+        width: 63
+        height: 102
+      alignment: 9
+      pivot: {x: .251510382, y: .130691826}
+    - name: finger 1b
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 861
+        width: 68
+        height: 117
+      alignment: 9
+      pivot: {x: .593525589, y: .152950972}
+    - name: finger 2a
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 739
+        width: 52
+        height: 98
+      alignment: 9
+      pivot: {x: .641120315, y: .140577674}
+    - name: finger 2b
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 858
+        width: 85
+        height: 126
+      alignment: 9
+      pivot: {x: .678418696, y: .181622699}
+    - name: finger 3a
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 729
+        width: 55
+        height: 102
+      alignment: 9
+      pivot: {x: .669000804, y: .15946871}
+    - name: finger 3b
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 864
+        width: 139
+        height: 81
+      alignment: 9
+      pivot: {x: .844912946, y: .349008054}
+    - name: finger 4a
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 680
+        width: 74
+        height: 100
+      alignment: 9
+      pivot: {x: .771050513, y: .186903074}
+    - name: finger 4b
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 740
+        width: 110
+        height: 87
+      alignment: 9
+      pivot: {x: .833554506, y: .730548739}
+    - name: E 1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 307
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 309
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 2e 3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 421
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 570
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 578
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 557
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 449
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 436
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 341
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 374
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 325
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: e 12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 281
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: intro
+  userData: 

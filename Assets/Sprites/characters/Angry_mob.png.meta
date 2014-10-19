@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: af4d8731f4a154b06a1b415baf912b9e
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CameraHand
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 505
+        width: 69
+        height: 78
+      alignment: 9
+      pivot: {x: .527508736, y: .17148532}
+    - name: Flash 1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 529
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Flash 2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 484
+        width: 112
+        height: 115
+      alignment: 9
+      pivot: {x: .677945554, y: .433980137}
+    - name: Flash 3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 455
+        width: 173
+        height: 173
+      alignment: 9
+      pivot: {x: .697488785, y: .423199087}
+    - name: FireHand
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 472
+        width: 67
+        height: 106
+      alignment: 9
+      pivot: {x: .202538326, y: .50895375}
+    - name: PitchFork
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 323
+        width: 238
+        height: 126
+      alignment: 9
+      pivot: {x: .372397542, y: .33429414}
+    - name: C_lower_Arm
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 181
+        width: 25
+        height: 104
+      alignment: 9
+      pivot: {x: .651846945, y: .125857726}
+    - name: C_upper_Arm
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 83
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: .945115566, y: .0646738261}
+    - name: P_lower_arm
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 205
+        width: 19
+        height: 84
+      alignment: 9
+      pivot: {x: .476777732, y: .0613991879}
+    - name: P_upper_arm
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 92
+        width: 16
+        height: 85
+      alignment: 9
+      pivot: {x: .5, y: .0587727278}
+    - name: F_lower_arm
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 236
+        width: 76
+        height: 36
+      alignment: 9
+      pivot: {x: .0681634173, y: .227244481}
+    - name: F_upper_arm
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 138
+        width: 72
+        height: 27
+      alignment: 9
+      pivot: {x: .0558024496, y: .241777211}
+    - name: L1_upper
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 318
+        width: 69
+        height: 85
+      alignment: 9
+      pivot: {x: .894838631, y: .893759668}
+    - name: L1_knee
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 283
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: .186348364, y: .255239874}
+    - name: L1_lower
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 169
+        width: 69
+        height: 80
+      alignment: 9
+      pivot: {x: .914916098, y: .0874610916}
+    - name: L1_foot
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 14
+        width: 53
+        height: 119
+      alignment: 9
+      pivot: {x: .786504209, y: .779130518}
+    - name: L2_upper
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 311
+        width: 51
+        height: 86
+      alignment: 9
+      pivot: {x: .19063434, y: .935194135}
+    - name: L2_knee
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 331
+        width: 17
+        height: 18
+      alignment: 9
+      pivot: {x: .27355957, y: .286139607}
+    - name: L2_lower
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 196
+        width: 71
+        height: 58
+      alignment: 9
+      pivot: {x: .0615689978, y: .919136584}
+    - name: L2_foot
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 56
+        width: 83
+        height: 66
+      alignment: 9
+      pivot: {x: .099317804, y: .597144246}
+    - name: L3_upper
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 332
+        width: 89
+        height: 50
+      alignment: 9
+      pivot: {x: .0546422377, y: .15816468}
+    - name: L3_lower
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 183
+        width: 19
+        height: 97
+      alignment: 9
+      pivot: {x: .349834234, y: .957702339}
+    - name: L3_knee
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 399
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: .171877548, y: .157612681}
+    - name: L3_foot
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 71
+        width: 99
+        height: 91
+      alignment: 9
+      pivot: {x: .154893667, y: .280990005}
+  spritePackingTag: characters
+  userData: 

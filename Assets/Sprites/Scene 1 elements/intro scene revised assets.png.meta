@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 99963990bd7754fe3a5b891a52588b12
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grass 02
+    21300002: grass 01
+    21300004: grass 03
+    21300006: grass 04
+    21300008: cross 01
+    21300010: cross 02
+    21300012: cross 03
+    21300014: wall
+    21300016: intro scene revised assets_8silleoutte
+    21300018: intro tree
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 145
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: grass 02
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 451
+        width: 267
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass 01
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 306
+        width: 124
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass 03
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 568
+        width: 160
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass 04
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 654
+        width: 119
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cross 01
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 399
+        width: 233
+        height: 370
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cross 02
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 775
+        width: 257
+        height: 595
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cross 03
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 735
+        width: 401
+        height: 636
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wall
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 18
+        width: 1393
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: intro scene revised assets_8silleoutte
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 276
+        width: 997
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: intro tree
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 415
+        width: 888
+        height: 960
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
