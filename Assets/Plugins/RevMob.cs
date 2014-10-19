@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 
 public abstract class RevMob {
-	protected static readonly string REVMOB_VERSION = "7.3.2";
+	protected static readonly string REVMOB_VERSION = "7.4.0";
 	protected string gameObjectName;
 
 	public enum Test {
