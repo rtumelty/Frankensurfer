@@ -13,7 +13,7 @@ public class MobController : MonoBehaviour {
 	[SerializeField] float dangerZone = 5f;
 
 	bool onTerrain = false;
-	LayerMask raycastMask;
+	[SerializeField]LayerMask raycastMask;
 	FrankensurferControls controls;
 	PlayMakerFSM stateManager;
 	bool inDanger = false;
@@ -57,17 +57,24 @@ public class MobController : MonoBehaviour {
 		stateManager.FsmVariables.GetFsmFloat("MobDistance").Value = normalizedDistance;
 
 		if (currentFollowDistance < 25) {
+			RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(0, -1), 
+			                                     Mathf.Infinity, raycastMask);
+
+			if (hit.collider == null) onTerrain = false;
+
 			if (!onTerrain) {
-				RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, 500), new Vector2(0, -1), 
-				                                     Mathf.Infinity, raycastMask);
-
-				if (currentFollowDistance < dangerZone && !inDanger) StartCoroutine("AlmostCaught");
-
+				hit = Physics2D.Raycast(new Vector2(transform.position.x, 500), new Vector2(0, -1), 
+				                        Mathf.Infinity, raycastMask);
+				
 				if (hit.point != Vector2.zero) {
-					transform.position = new Vector3(hit.point.x, hit.point.y, transform.position.z);
+					transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
 					onTerrain = true;
 				}
-			} else if (currentFollowDistance <= 0 && !controls.GameOver) {
+			}
+
+			if (currentFollowDistance < dangerZone && !inDanger) StartCoroutine("AlmostCaught");
+
+			if (currentFollowDistance <= 0 && !controls.GameOver) {
 				transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
 			}
 		} else { 
@@ -95,8 +102,10 @@ public class MobController : MonoBehaviour {
 		inDanger = true;
 
 		while (currentFollowDistance < dangerZone) {
-			if (currentFollowDistance < 0) StopCoroutine("AlmostCaught");
-
+			if (currentFollowDistance < 0) {
+				inDanger = false;
+				yield break;
+			}
 			yield return new WaitForSeconds(Time.deltaTime);
 		}
 
