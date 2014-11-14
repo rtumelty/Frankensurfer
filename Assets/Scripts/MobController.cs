@@ -42,7 +42,7 @@ public class MobController : MonoBehaviour {
 	void Awake () {
 		currentFollowDistance = maximumFollowDistance;
 		transform.position = player.transform.position - new Vector3(currentFollowDistance, 0, 0);
-		raycastMask = ~(1 << gameObject.layer);
+		raycastMask = 1;//~(1 << gameObject.layer);
 
 		controls = player.GetComponent<FrankensurferControls>() as FrankensurferControls;
 		gameObject.SetActive(false);
@@ -68,6 +68,7 @@ public class MobController : MonoBehaviour {
 				
 				if (hit.point != Vector2.zero) {
 					transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+					rigidbody2D.velocity = Vector2.zero;
 					onTerrain = true;
 				}
 			}
