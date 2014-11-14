@@ -62,6 +62,7 @@ public class AdManager : Singleton<AdManager>, IRevMobListener {
 
 		if (Application.internetReachability == NetworkReachability.NotReachable) {
 			initialized = false;
+			Debug.Log("AdManager - internet not reachable");
 		} else {
 
 			if (useRevMob) {
@@ -71,13 +72,18 @@ public class AdManager : Singleton<AdManager>, IRevMobListener {
 					{ "IOS", revMobIosID }
 				};
 				revmob = RevMob.Start (REVMOB_APP_IDS, "_AdManager");
-				if (revmob != null) 
-						revmob.CreateFullscreen ();
-				else 
-						useRevMob = false;
+				if (revmob != null) {
+					revmob.CreateFullscreen ();
+					Debug.Log("AdManager - RevMob initialised");
+				}
+				else  {
+					useRevMob = false;
+					Debug.Log("AdManager - RevMob not initialised");
+				}
 			}
 
 			if (useChartBoost) {
+				Debug.Log("AdManager - Initialising Chartboost");
 					// Chartboost setup
 				Chartboost.cacheInterstitial(CBLocation.Default);
 			}
@@ -205,10 +211,13 @@ public class AdManager : Singleton<AdManager>, IRevMobListener {
 
 	public void ShowFullscreenAd(AdType adType) {
 #if UNITY_ANDROID || UNITY_IPHONE
+		
+		Debug.Log("AdManager - Showing ad");
 		CheckActiveAdNetworks();
-		if (activeAdNetworks == 0 || 
-		    Application.internetReachability == NetworkReachability.NotReachable) 
+		if (activeAdNetworks == 0 || Application.internetReachability == NetworkReachability.NotReachable) {
+			Debug.Log("AdManager - internet not reachable or no active ad networks");
 				return;
+		}
 
 		if (adType == AdType.Random || (adType & activeAdNetworks) == 0) {
 			System.Array values = System.Enum.GetValues(typeof(AdType));
@@ -221,11 +230,11 @@ public class AdManager : Singleton<AdManager>, IRevMobListener {
 		case AdType.Random:
 			break;
 		case AdType.RevMob:
-			Debug.Log("showing revmob");
+			Debug.Log("AdManager - showing RevMob");
 			revmob.ShowFullscreen();
 			break;
 		case AdType.Chartboost:
-			Debug.Log("showing chartboost");	
+			Debug.Log("AdManager - showing Chartboost");	
 			Chartboost.showInterstitial(CBLocation.Default);
 			break;
 		}

@@ -46,6 +46,7 @@ public class MobController : MonoBehaviour {
 
 		controls = player.GetComponent<FrankensurferControls>() as FrankensurferControls;
 		gameObject.SetActive(false);
+		rigidbody2D.isKinematic = true;
 
 		stateManager = GameObject.Find("_StateManager").GetComponent<PlayMakerFSM>() as PlayMakerFSM;
 	}
@@ -69,6 +70,7 @@ public class MobController : MonoBehaviour {
 				if (hit.point != Vector2.zero) {
 					transform.position = new Vector3(transform.position.x, hit.point.y, transform.position.z);
 					rigidbody2D.velocity = Vector2.zero;
+					rigidbody2D.isKinematic = false;
 					onTerrain = true;
 				}
 			}
